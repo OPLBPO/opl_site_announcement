@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OPL_site_announcement feature.
+ */
+
+include_once 'opl_site_announcement.features.inc';
