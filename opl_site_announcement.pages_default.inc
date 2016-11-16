@@ -41,8 +41,8 @@ function opl_site_announcement_default_page_manager_handlers() {
   $display->cache = array();
   $display->title = '';
   $display->uuid = '83bcbfbd-7bbe-4784-bb52-151dbd5d26b4';
-  $display->storage_type = 'unknown';
-  $display->storage_id = '';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'entity_panels_node_site_announcement_teaser__panel_context_6cfd5274-17d5-46ff-a9dc-a7c61d851fa3';
   $display->content = array();
   $display->panels = array();
   $pane = new stdClass();
@@ -56,7 +56,7 @@ function opl_site_announcement_default_page_manager_handlers() {
     'admin_title' => 'Button',
     'title' => '',
     'title_heading' => 'h2',
-    'body' => '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>',
+    'body' => '<button type="button" class="close" data-dismiss="alert" aria-label="Close %node:title_field"><span aria-hidden="true">&times;</span></button>',
     'format' => 'newcomers_full_html',
     'substitute' => 1,
   );
